@@ -1,0 +1,113 @@
+.App {
+
+}
+
+
+.layout {
+	font-family: 'Special Elite', cursive;
+	margin: 0 auto;
+
+
+}
+
+.header {
+	width: 920px;
+	height: 275px;
+	background-image: url(/images/linenpattern3.jpg);
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 20px;
+	border: 20px solid transparent;
+	border-image: url(/images/mahoganywood.jpg) 30 round;
+
+}
+
+
+.logo {
+	display: flex;
+	
+}
+
+
+.logoPic > img {
+	height: 200px;
+	padding: 15px;
+}
+
+
+
+.logo > h1 {
+	font-size: 72px;
+	text-align: center;
+	padding: 15px;
+}
+
+.logo > span {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.mainNav > nav {
+	margin-top: -25px;
+}
+
+
+.link {
+	margin: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.link:hover {
+	color: red;
+}
+
+
+.billboard {
+	display: flex;
+}
+
+
+.billboardH {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.billboardH > h1 {
+	font-size: 64px;
+	margin-left: 25px;
+}
+
+.billboardH > h3 {
+	font-size: 28px;
+	margin-left: 25px;
+}
+
+
+
+
+.container {
+	margin: 10px auto;
+	width: 920px;
+	height: 100%;
+	background-image: url(/images/linenpattern3.jpg);
+	border-radius: 5px;
+	padding: 20px;
+	border: 20px solid transparent;
+	border-image: url(/images/mahoganywood.jpg) 30 round;
+
+}
+
+.footer {
+	width: 960px;
+	background-image: url(/images/linenpattern3.jpg);
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.footNav {
+	display: flex;
+	justify-content: space-between;
+}

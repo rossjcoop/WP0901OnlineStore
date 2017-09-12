@@ -11,10 +11,12 @@ class Hats extends Component {
 	      	<div className="products">
 	      		{hatData.map((item) => (
 	      			<div className="productItem" key={item.productid}>
-	      			<img src={item.picture}/>
-	      			<h3>{item.name}</h3>
-	      			<span>Price: {item.price}</span>
-	      			<span>Product Id: {item.productid}</span>
+		      			<img src={item.picture}/>
+		      			<h3>{item.name}</h3>
+		      			<p>{item.description}</p>
+		      			<span>Price: {item.price}</span>
+		      			<br />
+		      			<span>Product Id: {item.productid}</span>
 	      			</div>
 	      		))}
 	      	</div>

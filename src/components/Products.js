@@ -12,30 +12,24 @@ class Products extends Component {
     			<div className = "cigars">
     				<Link to="/Products/Cigars">
     				<div className = "cigarProduct">
-    				<h3>Cigars</h3>
-
-
-
+	    				<h3 className="productLink">Cigars</h3>
+	    				<img src="images/cigarpics/cigars1.jpg" />
     				</div>
     				</Link>
     			</div>
     			<div className = "hats">
     				<Link to="Products/Hats">
     				<div className = "hatsProduct">
-    				<h3>Hats</h3>
-
-
-
+	    				<h3 className="productLink">Hats</h3>
+	    				<img src="images/hatpics/hat1.jpg" />
     				</div>
     				</Link>
     			</div>
     			<div className = "canes">
     				<Link to="Products/Canes">
     				<div className = "canesProduct">
-    				<h3>Canes</h3>
-
-
-
+	    				<h3 className="productLink">Canes</h3>
+	    				<img src="images/canepics/cane1.jpg" />
     				</div>
     				</Link>
     			</div>

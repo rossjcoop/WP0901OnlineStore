@@ -8,7 +8,7 @@ class Baselayout extends Component {
     	<div className = "layout">
     		<div className = "header">
     			<div className = "logo">
-    				<h1>Gentleman's Emporium</h1>
+    				<h1>Gentlemen's Emporium</h1>
     				<div className = "logoPic">
     					<img src="/images/twogents.png" />
     				</div>
@@ -28,7 +28,7 @@ class Baselayout extends Component {
 
     		<div className = "footer">
     			<div className = "footNav">
-    				<span>©2017 Gentleman's Emporium</span>
+    				<span>©2017 Gentlemen's Emporium</span>
     				<nav>
     					<NavLink exact to="/" className="link">Home</NavLink>
     					<NavLink to="/About" className="link">About</NavLink>
